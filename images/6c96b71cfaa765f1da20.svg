@@ -1,0 +1,54 @@
+<svg width="343" height="160" viewBox="0 0 343 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g clip-path="url(#clip0_2728_256088)">
+        <rect width="343" height="160" fill="#2E3035"/>
+        <g filter="url(#filter0_d_2728_256088)">
+            <g clip-path="url(#clip1_2728_256088)">
+                <rect x="309.642" y="79" width="104.408" height="52.2039" rx="10" transform="rotate(12.886 309.642 79)" fill="#EEEFEF"/>
+                <rect x="315.82" y="87.1094" width="39.1529" height="13.051" transform="rotate(12.886 315.82 87.1094)" fill="#2A65BC" fill-opacity="0.1"/>
+                <circle cx="315.487" cy="117.826" r="6.52549" transform="rotate(12.886 315.487 117.826)" fill="#2A65BC" fill-opacity="0.1"/>
+                <rect x="328.354" y="114.251" width="31.3223" height="5.22039" transform="rotate(12.886 328.354 114.251)" fill="#2A65BC" fill-opacity="0.1"/>
+                <rect x="326.607" y="121.888" width="15.6612" height="5.22039" transform="rotate(12.886 326.607 121.888)" fill="#2A65BC" fill-opacity="0.1"/>
+            </g>
+        </g>
+        <g filter="url(#filter1_d_2728_256088)">
+            <g clip-path="url(#clip2_2728_256088)">
+                <rect x="-26" y="35.2031" width="104.408" height="52.2039" rx="10" transform="rotate(-30 -26 35.2031)" fill="#EEEFEF"/>
+                <rect x="-15.9575" y="36.9375" width="39.1529" height="13.051" transform="rotate(-30 -15.9575 36.9375)" fill="#2A65BC" fill-opacity="0.1"/>
+                <circle cx="4.70792" cy="59.6736" r="6.52549" transform="rotate(-30 4.70792 59.6736)" fill="#2A65BC" fill-opacity="0.1"/>
+                <rect x="11.6978" y="48.2959" width="31.3223" height="5.22039" transform="rotate(-30 11.6978 48.2959)" fill="#2A65BC" fill-opacity="0.1"/>
+                <rect x="47.1787" y="36.6592" width="31.3223" height="5.22039" transform="rotate(-30 47.1787 36.6592)" fill="#2A65BC" fill-opacity="0.1"/>
+                <rect x="15.6118" y="55.0771" width="15.6612" height="5.22039" transform="rotate(-30 15.6118 55.0771)" fill="#2A65BC" fill-opacity="0.1"/>
+                <rect x="43.2646" y="29.8779" width="20.8816" height="5.22039" transform="rotate(-30 43.2646 29.8779)" fill="#2A65BC" fill-opacity="0.1"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <filter id="filter0_d_2728_256088" x="287.559" y="73.7796" width="134.302" height="95.0544" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="5.22039"/>
+            <feGaussianBlur stdDeviation="5.22039"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2728_256088"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2728_256088" result="shape"/>
+        </filter>
+        <filter id="filter1_d_2728_256088" x="-36.4408" y="-22.2214" width="137.404" height="118.296" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="5.22039"/>
+            <feGaussianBlur stdDeviation="5.22039"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2728_256088"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2728_256088" result="shape"/>
+        </filter>
+        <clipPath id="clip0_2728_256088">
+            <rect width="343" height="160" fill="white"/>
+        </clipPath>
+        <clipPath id="clip1_2728_256088">
+            <rect x="309.642" y="79" width="104.408" height="52.2039" rx="10" transform="rotate(12.886 309.642 79)" fill="white"/>
+        </clipPath>
+        <clipPath id="clip2_2728_256088">
+            <rect x="-26" y="35.2031" width="104.408" height="52.2039" rx="10" transform="rotate(-30 -26 35.2031)" fill="white"/>
+        </clipPath>
+    </defs>
+</svg>

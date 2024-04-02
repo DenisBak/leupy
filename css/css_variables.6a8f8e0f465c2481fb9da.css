@@ -1,0 +1,624 @@
+html {
+    --currency-font-family: -apple-system, Roboto, "Currency Font", Helvetica, Arial, sans-serif
+}
+
+html[data-brand=AS] {
+    --brand-text-font-family: Stapel, -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif
+}
+
+html[data-brand=WA] {
+    --brand-text-font-family: "Work Sans", -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif
+}
+
+html {
+    --text-font-family: -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif;
+    --black: #000;
+    --black_alpha_95: rgba(12, 19, 29, 0.95);
+    --black_alpha_72: rgba(26, 32, 40, 0.72);
+    --black_alpha_40: rgba(16, 23, 34, 0.4);
+    --black_alpha_24: rgba(12, 20, 32, 0.24);
+    --black_alpha_16: rgba(13, 25, 43, 0.16);
+    --black_alpha_12: rgba(17, 33, 56, 0.12);
+    --black_alpha_8: rgba(67, 83, 106, 0.08);
+    --black_alpha_4: rgba(76, 84, 97, 0.04);
+    --white: #fff;
+    --white_alpha_72: hsla(0, 0%, 100%, 0.72);
+    --white_alpha_40: hsla(0, 0%, 100%, 0.4);
+    --white_alpha_24: hsla(0, 0%, 100%, 0.24);
+    --white_alpha_16: hsla(0, 0%, 100%, 0.16);
+    --white_alpha_12: hsla(0, 0%, 100%, 0.12);
+    --white_alpha_8: hsla(0, 0%, 100%, 0.08);
+    --white_alpha_4: hsla(0, 0%, 100%, 0.04);
+    --ink_800: #0c131d;
+    --ink_500: #5a6472;
+    --ink_500_alpha_60: rgba(90, 100, 114, 0.6);
+    --ink_500_alpha_12: rgba(90, 100, 114, 0.12);
+    --ink_400: #9ea9b7;
+    --ink_300: #cdd4de;
+    --ink_150: #e1e5ec;
+    --ink_50: #eff1f4;
+    --ink_25: #f6f7f9;
+    --graphite_900: #141414;
+    --graphite_800: #1d1e20;
+    --graphite_700: #242528;
+    --graphite_600: #2e3035;
+    --graphite_500: #3d3f43;
+    --graphite_400: #5a5c5f;
+    --graphite_300: #8a8f94;
+    --graphite_300_alpha_16: rgba(138, 143, 148, 0.16);
+    --graphite_50: #eeefef;
+    --green_800: #30a748;
+    --green_500: #3bbf56;
+    --green_300: #79d18b;
+    --green_200: #a0dead;
+    --green_100: #c8eccf;
+    --green_50: #ebf8ee;
+    --red_800: #e6404e;
+    --red_500: #f95667;
+    --red_300: #fb8c98;
+    --red_200: #fcaeb6;
+    --red_100: #fdd0d4;
+    --red_50: #feeeef;
+    --yellow_800: #fc871a;
+    --yellow_500: #ffaa18;
+    --yellow_300: #ffc562;
+    --yellow_200: #ffd690;
+    --yellow_100: #ffe7be;
+    --yellow_50: #fff7e8;
+    --purple_800: #8c59ff;
+    --purple_500: #a179ff;
+    --purple_300: #bfa4ff;
+    --purple_200: #d6c4ff;
+    --purple_100: #e5d9ff;
+    --purple_50: #f5f1ff;
+    --pink_800: #ec4391;
+    --pink_500: #ff5ea9;
+    --pink_300: #ff92c5;
+    --pink_200: #ffb2d6;
+    --pink_100: #ffd2e7;
+    --pink_50: #ffeef6;
+    --blue_800: #1c98e1;
+    --blue_500: #25aff8;
+    --blue_300: #6bc9fa;
+    --blue_200: #97d9fc;
+    --blue_100: #c2e9fd;
+    --blue_50: #e9f6fe;
+    --fog_800: #57799e;
+    --fog_500: #6c8db7;
+    --fog_300: #99b0cd;
+    --fog_200: #b7c7db;
+    --fog_100: #d5dfea;
+    --fog_50: #f0f3f7;
+    --orange_800: #fa742d;
+    --orange_500: #F09319; /* main button light theme*/
+    --orange_300: #ffa06c;
+    --orange_200: #ffbc97;
+    --orange_100: #ffd8c3;
+    --orange_50: #fef1e9;
+    --brand_shading: rgba(12, 115, 254, 0.1);
+    --yellow_shading: rgba(255, 170, 24, 0.1);
+    --orange_shading: rgba(250, 116, 45, 0.1);
+    --red_shading: rgba(249, 86, 103, 0.1);
+    --green_shading: rgba(59, 191, 86, 0.1);
+    --blue_shading: rgba(37, 175, 248, 0.1);
+    --purple_shading: rgba(161, 121, 255, 0.1);
+    --pink_shading: rgba(255, 94, 169, 0.1);
+    --fog_shading: rgba(105, 139, 181, 0.1);
+    --accent_more_start: #a266eb;
+    --accent_more_end: #20a0ff;
+    --more_pink: #ffb8d7;
+    --more_blue: #9ad3ff;
+    --lilac_gradient: linear-gradient(246.03deg, #91a2ff 15.39%, #9f87ff 84.61%);
+    --green_gradient: linear-gradient(90deg, #59c979, #92cf48);
+    --blue_gradient: linear-gradient(90deg, #18bde7, #5ed1eb 61.98%);
+    --gray_gradient: linear-gradient(90deg, #bfc5c4, #d2d9d7);
+    --purpleblue_horizontal_gradient: linear-gradient(90deg, var(--accent_more_start), var(--accent_more_end));
+    --purpleblue_vertical_gradient: linear-gradient(0deg, var(--accent_more_start), var(--accent_more_end));
+    --more_gradient_pinkvioletblue: linear-gradient(90deg, var(--more_pink), #dfcdff 50%, var(--more_blue));
+    --more_gradient_pinkvioletblue_dim: linear-gradient(90deg, #e5a1be, #cfb9f5 50%, #82c0f0);
+    --more_gradient_pinkvioletblue_dim_25: linear-gradient(90deg, rgba(229, 161, 190, 0.15), rgba(207, 185, 245, 0.15) 50%, rgba(130, 192, 240, 0.15));
+    --social_vk_800: #026ae2;
+    --social_vk_500: #07f;
+    --social_fb_800: #2e4575;
+    --social_fb_500: #3c5a99;
+    --social_twitter_800: #2194cf;
+    --social_twitter_500: #41abe1;
+    --social_ok_800: #df7306;
+    --social_ok_500: #f98d20;
+    --social_mailru_800: #1347e9;
+    --social_mailru_500: #2063f0;
+    --social_google_800: #c63224;
+    --social_google_500: #dc4e41;
+    --social_yandex_800: #ba2222;
+    --social_yandex_500: #da3332;
+    --social_wechat_800: #5e9a1d;
+    --social_wechat_500: #7bb32e;
+    --social_line_800: #00ae00;
+    --social_line_500: #00c300;
+    --social_telegram_800: #0078b5;
+    --social_telegram_500: #08c;
+    --social_whatsapp_800: #20b859;
+    --social_whatsapp_500: #25d366;
+    --social_aeroflot_800: #00244d;
+    --social_aeroflot_500: #003d82;
+    --social_kiwicom_800: #00937b;
+    --social_kiwicom_500: #00ad98;
+    --social_viber_800: #5946dc;
+    --social_viber_500: #7360f2;
+    --social_apple_500: #000;
+    --social_yahoo_500: #5f01d1;
+    --social_yahoo_800: #4f01ac;
+    --social_x_twitter_500: #000
+}
+
+html.--night {
+    --green_500: #4ec165;
+    --green_300: #81d392;
+    --green_200: #a6e0b2;
+    --green_100: #cbedd2;
+    --green_50: #ebf9ee;
+    --red_500: #f66a78;
+    --red_300: #f99aa3;
+    --red_200: #fbb7be;
+    --red_100: #fcd5d9;
+    --red_50: #fef0f1;
+    --yellow_500: #faaf2e;
+    --yellow_300: #fbc971;
+    --yellow_200: #fcd99b;
+    --yellow_100: #fee9c5;
+    --yellow_50: #fffaf1;
+    --purple_500: #aa86fd;
+    --purple_300: #c5adfe;
+    --purple_200: #d6c5fe;
+    --purple_100: #e7ddfe;
+    --purple_50: #f6f3ff;
+    --pink_500: #fb6fb0;
+    --pink_300: #fc9dc9;
+    --pink_200: #fdbad9;
+    --pink_100: #fed7e9;
+    --pink_50: #fff1f7;
+    --blue_500: #2eb0f5;
+    --blue_300: #78cbf7;
+    --blue_200: #a0dbf9;
+    --blue_100: #c8eafc;
+    --blue_50: #eaf7fe;
+    --fog_500: #6988b0;
+    --fog_300: #99aec9;
+    --fog_200: #b7c6d9;
+    --fog_100: #d5dee9;
+    --fog_50: #edf1f5;
+    --orange_500: #f58142;
+    --orange_300: #f8a97f;
+    --orange_200: #fac2a4;
+    --orange_100: #fcdcca;
+    --orange_50: #fef2ec;
+    --brand_shading: rgba(23, 129, 243, 0.12);
+    --yellow_shading: rgba(250, 175, 46, 0.12);
+    --orange_shading: rgba(245, 129, 66, 0.12);
+    --red_shading: rgba(246, 106, 120, 0.12);
+    --green_shading: rgba(70, 190, 95, 0.12);
+    --blue_shading: rgba(57, 179, 243, 0.12);
+    --purple_shading: rgba(170, 134, 253, 0.12);
+    --pink_shading: rgba(251, 111, 176, 0.12);
+    --fog_shading: rgba(153, 174, 201, 0.12);
+    --lilac_gradient: linear-gradient(270deg, #8a98e6, #9581e6);
+    --green_gradient: linear-gradient(90deg, #62b87a, #8ebc56);
+    --blue_gradient: linear-gradient(90deg, #30afcd, #65c0d4 65.1%);
+    --gray_gradient: linear-gradient(90deg, #a2a5a4, #afb3b1);
+    --social_apple_500: #fff;
+    --social_x_twitter_500: #fff
+}
+
+html[data-brand=AS] {
+    --brand_primary_800: #F09319;
+    --brand_primary_500: #FFC962;
+    --brand_primary_300: #FFE59E;
+    --brand_primary_200: #fbe7af;
+    --brand_primary_50: #fff2ce;
+    --brand_primary_25: #fffaeb;
+}
+
+html[data-brand=AS].--night {
+    --brand_primary_800: #F09319;
+    --brand_primary_500: #FFC962;
+    --brand_primary_300: #FFE59E;
+    --brand_primary_200: #fbe7af;
+    --brand_primary_50: #fff2ce;
+    --brand_primary_25: #fffaeb;
+}
+
+html[data-brand=WA] {
+    --brand_pale_50: #fffcf3;
+    --brand_primary_800: #F09319;
+    --brand_primary_500: #FFC962;
+    --brand_primary_300: #FFE59E;
+    --brand_primary_200: #fbe7af;
+    --brand_primary_50: #fff2ce;
+    --brand_primary_25: #fffaeb;
+}
+
+html[data-brand=WA].--night {
+    --brand_primary_800: #F09319;
+    --brand_primary_500: #FFC962;
+    --brand_primary_300: #FFE59E;
+    --brand_primary_200: #fbe7af;
+    --brand_primary_50: #fff2ce;
+    --brand_primary_25: #fffaeb;
+}
+
+html {
+    --white-graphite_900: var(--white);
+    --ink_50-graphite_900: var(--ink_50);
+    --brand_primary_500-graphite_900: var(--brand_primary_500);
+    --white-graphite_800: var(--white);
+    --ink_25-graphite_800: var(--ink_25);
+    --ink_50-graphite_800: var(--ink_50);
+    --white-graphite_700: var(--white);
+    --ink_50-graphite_700: var(--ink_50);
+    --white-graphite_600: var(--white);
+    --ink_300-graphite_600: var(--ink_300);
+    --ink_25-graphite_600: var(--ink_25);
+    --white-graphite_500: var(--white);
+    --brand_primary_50-graphite_500: var(--brand_primary_50);
+    --ink_300-graphite_500: var(--ink_300);
+    --ink_150-graphite_500: var(--ink_150);
+    --ink_50-graphite_500: var(--ink_50);
+    --ink_25-graphite_500: var(--ink_25);
+    --black_alpha_95-graphite_400: var(--black_alpha_95);
+    --white-graphite_400: var(--white);
+    --ink_500-graphite_300: var(--ink_500);
+    --ink_400-graphite_300: var(--ink_400);
+    --brand_primary_500-graphite_300: var(--brand_primary_500);
+    --ink_500_alpha_60-graphite_300: var(--ink_500_alpha_60);
+    --ink_500_alpha_12-graphite_300_alpha_16: var(--ink_500_alpha_12);
+    --ink_800-graphite_50: var(--ink_800);
+    --brand_primary_500-graphite_50: var(--brand_primary_500);
+    --ink_400-graphite_50: var(--ink_400);
+    --ink_800-ink_800: var(--ink_800);
+    --white-white: var(--white);
+    --brand_primary_500-white: var(--brand_primary_500);
+    --black_alpha_24-black_alpha_40: var(--black_alpha_24);
+    --black_alpha_16-black_alpha_24: var(--black_alpha_16);
+    --ink_50-black_alpha_24: var(--ink_50);
+    --black_alpha_16-black_alpha_12: var(--black_alpha_16);
+    --black_alpha_12-black_alpha_12: var(--black_alpha_12);
+    --black_alpha_4-white_alpha_4: var(--black_alpha_4);
+    --ink_300_graphite_400: var(--ink_300)
+}
+
+html.--night {
+    --white-graphite_900: var(--graphite_900);
+    --ink_50-graphite_900: var(--graphite_900);
+    --brand_primary_500-graphite_900: var(--graphite_900);
+    --white-graphite_800: var(--graphite_800);
+    --ink_25-graphite_800: var(--graphite_800);
+    --ink_50-graphite_800: var(--graphite_800);
+    --white-graphite_700: var(--graphite_700);
+    --ink-25-graphite_700: var(--graphite_700);
+    --ink_50-graphite_700: var(--graphite_700);
+    --white-graphite_600: var(--graphite_600);
+    --ink_300-graphite_600: var(--graphite_600);
+    --ink_25-graphite_600: var(--graphite_600);
+    --white-graphite_500: var(--graphite_500);
+    --brand_primary_50-graphite_500: var(--graphite_500);
+    --ink_300-graphite_500: var(--graphite_500);
+    --ink_150-graphite_500: var(--graphite_500);
+    --ink_50-graphite_500: var(--graphite_500);
+    --ink_25-graphite_500: var(--graphite_500);
+    --black_alpha_95-graphite_400: var(--graphite_400);
+    --white-graphite_400: var(--graphite_400);
+    --ink_500-graphite_300: var(--graphite_300);
+    --ink_400-graphite_300: var(--graphite_300);
+    --brand_primary_500-graphite_300: var(--graphite_300);
+    --ink_500_alpha_60-graphite_300: var(--graphite_300);
+    --ink_500_alpha_12-graphite_300_alpha_16: var(--graphite_300_alpha_16);
+    --ink_800-graphite_50: var(--graphite_50);
+    --brand_primary_500-graphite_50: var(--graphite_50);
+    --ink_400-graphite_50: var(--graphite_50);
+    --brand_primary_500-white: var(--white);
+    --black_alpha_24-black_alpha_40: var(--black_alpha_40);
+    --black_alpha_16-black_alpha_24: var(--black_alpha_24);
+    --ink_50-black_alpha_24: var(--black_alpha_24);
+    --black_alpha_16-black_alpha_12: var(--black_alpha_12);
+    --black_alpha_4-white_alpha_4: var(--white_alpha_4);
+    --ink_300_graphite_400: var(--graphite_400)
+}
+
+html {
+    --screen_white_background: var(--white);
+    --screen_gray_background: var(--ink_50);
+    --screen_brand_pale_background: var(--brand_pale_50);
+    --screen_brand_background: var(--brand_primary_500);
+    --modal_white_background: var(--white);
+    --modal_gray_background: var(--ink_50);
+    --modal_brand_pale_background: var(--brand_pale_50);
+    --card_white_on_screen_background: var(--white);
+    --card_gray_on_screen_background: var(--ink_25);
+    --card_white_on_modal_background: var(--white);
+    --card_gray_on_modal_background: var(--ink_25);
+    --card_white_on_card_background: var(--white);
+    --card_gray_on_card_background: var(--black_alpha_4);
+    --pin_on_map_background: var(--white);
+    --card_more: var(--more_gradient_pinkvioletblue);
+    --card_more_secondary: var(--more_gradient_pinkvioletblue_dim_25);
+    --card_info_fog_background: var(--fog_shading);
+    --card_info_pink_background: var(--pink_shading);
+    --card_info_purple_background: var(--purple_shading);
+    --card_info_blue_background: var(--blue_shading);
+    --card_info_green_background: var(--green_shading);
+    --card_info_red_background: var(--red_shading);
+    --card_info_orange_background: var(--orange_shading);
+    --card_info_yellow_background: var(--yellow_shading);
+    --card_info_brand_background: var(--brand_shading);
+    --text_primary: var(--ink_800);
+    --text_secondary: var(--ink_500);
+    --text_tertiary: var(--ink_400);
+    --text_disabled: var(--ink_300);
+    --text_on_bright_primary: var(--white);
+    --text_on_bright_dark_primary: var(--ink_800);
+    --text_on_bright_secondary: var(--white_alpha_72);
+    --text_on_bright_disabled: var(--white_alpha_40);
+    --text_on_more_primary: var(--ink_800);
+    --text_brand: var(--brand_primary_500);
+    --text_price_ticket_list: var(--brand_primary_500);
+    --text_danger: var(--red_800);
+    --text_positive: var(--green_800);
+    --text_warning: var(--yellow_800);
+    --text_accent_purple: var(--purple_800);
+    --text_accent_pink: var(--pink_800);
+    --text_accent_blue: var(--blue_800);
+    --text_accent_fog: var(--fog_800);
+    --text_accent_orange: var(--orange_800);
+    --icon_default: var(--ink_400);
+    --icon_default_on_grey: var(--ink_500);
+    --icon_brand: var(--brand_primary_500);
+    --icon_light_on_bright: var(--white);
+    --icon_dark_on_bright: var(--ink_800);
+    --accent_brand_primary_800: var(--brand_primary_800);
+    --accent_brand_primary_500: var(--brand_primary_500);
+    --accent_brand_primary_300: var(--brand_primary_300);
+    --accent_brand_primary_200: var(--brand_primary_200);
+    --accent_brand_primary_50: var(--brand_primary_50);
+    --accent_brand_primary_25: var(--brand_primary_25);
+    --accent_orange_500: var(--orange_500);
+    --accent_orange_300: var(--orange_300);
+    --accent_orange_200: var(--orange_200);
+    --accent_orange_50: var(--orange_50);
+    --accent_green_500: var(--green_500);
+    --accent_green_300: var(--green_300);
+    --accent_green_200: var(--green_200);
+    --accent_green_50: var(--green_50);
+    --accent_yellow_500: var(--yellow_500);
+    --accent_yellow_300: var(--yellow_300);
+    --accent_yellow_200: var(--yellow_200);
+    --accent_yellow_50: var(--yellow_50);
+    --accent_red_500: var(--red_500);
+    --accent_red_300: var(--red_300);
+    --accent_red_200: var(--red_200);
+    --accent_red_50: var(--red_50);
+    --accent_purple_500: var(--purple_500);
+    --accent_purple_300: var(--purple_300);
+    --accent_purple_200: var(--purple_200);
+    --accent_purple_50: var(--purple_50);
+    --accent_pink_500: var(--pink_500);
+    --accent_pink_300: var(--pink_300);
+    --accent_pink_200: var(--pink_200);
+    --accent_pink_50: var(--pink_50);
+    --accent_blue_500: var(--blue_500);
+    --accent_blue_300: var(--blue_300);
+    --accent_blue_200: var(--blue_200);
+    --accent_blue_50: var(--blue_50);
+    --accent_fog_500: var(--fog_500);
+    --accent_fog_300: var(--fog_300);
+    --accent_fog_200: var(--fog_200);
+    --accent_fog_50: var(--fog_50);
+    --accent_more_horizontal: var(--purpleblue_horizontal_gradient);
+    --accent_more_vertical: var(--purpleblue_vertical_gradient);
+    --accent_more_gradient_pinkvioletblue_dim: var(--more_gradient_pinkvioletblue_dim);
+    --alpha_4: var(--black_alpha_4);
+    --alpha_8: var(--black_alpha_8);
+    --alpha_12: var(--black_alpha_12);
+    --alpha_16: var(--black_alpha_16);
+    --alpha_24: var(--black_alpha_24);
+    --alpha_40: var(--black_alpha_40);
+    --alpha_72: var(--black_alpha_72);
+    --social_mailru: var(--social_mailru_500);
+    --social_fb: var(--social_fb_500);
+    --social_vk: var(--social_vk_500);
+    --social_telegram: var(--social_telegram_500);
+    --social_twitter: var(--social_twitter_500);
+    --social_yandex: var(--social_yandex_500);
+    --social_google: var(--social_google_500);
+    --social_ok: var(--social_ok_500);
+    --social_wechat: var(--social_wechat_500);
+    --social_line: var(--social_line_500);
+    --social_whatsapp: var(--social_whatsapp_500);
+    --social_apple: var(--social_apple_500);
+    --social_yahoo: var(--social_yahoo_500);
+    --social_more: var(--ink_800);
+    --social_x_twitter: var(--social_x_twitter_500);
+    --border_picture: var(--black_alpha_4);
+    --border_text: var(--white);
+    --hover_table_cell: var(--black_alpha_4);
+    --shimmering_text: var(--black_alpha_4);
+    --shimmering_picture: var(--black_alpha_8);
+    --link_standalone: var(--ink_800);
+    --link_default: var(--brand_primary_500);
+    --link_on_bright: var(--white)
+}
+
+html.--night {
+    --screen_white_background: var(--graphite_900);
+    --screen_gray_background: var(--graphite_900);
+    --screen_brand_pale_background: var(--graphite_900);
+    --screen_brand_background: var(--graphite_900);
+    --modal_white_background: var(--graphite_700);
+    --modal_gray_background: var(--graphite_700);
+    --modal_brand_pale_background: var(--graphite_700);
+    --card_white_on_screen_background: var(--graphite_800);
+    --card_gray_on_screen_background: var(--graphite_800);
+    --card_white_on_modal_background: var(--graphite_600);
+    --card_gray_on_modal_background: var(--graphite_600);
+    --card_white_on_card_background: var(--white_alpha_4);
+    --card_gray_on_card_background: var(--white_alpha_4);
+    --pin_on_map_background: var(--graphite_800);
+    --card_more: var(--more_gradient_pinkvioletblue);
+    --card_more_secondary: var(--more_gradient_pinkvioletblue_dim_25);
+    --card_info_fog_background: var(--fog_shading);
+    --card_info_pink_background: var(--pink_shading);
+    --card_info_purple_background: var(--purple_shading);
+    --card_info_blue_background: var(--blue_shading);
+    --card_info_green_background: var(--green_shading);
+    --card_info_red_background: var(--red_shading);
+    --card_info_orange_background: var(--orange_shading);
+    --card_info_yellow_background: var(--yellow_shading);
+    --card_info_brand_background: var(--brand_shading);
+    --text_primary: var(--graphite_50);
+    --text_secondary: var(--graphite_300);
+    --text_tertiary: var(--graphite_300);
+    --text_disabled: var(--graphite_400);
+    --text_on_bright_primary: var(--white);
+    --text_on_bright_dark_primary: var(--graphite_900);
+    --text_on_bright_secondary: var(--white_alpha_72);
+    --text_on_bright_disabled: var(--white_alpha_40);
+    --text_on_more_primary: var(--ink_800);
+    --text_brand: var(--brand_primary_500);
+    --text_price_ticket_list: var(--graphite_50);
+    --text_danger: var(--red_300);
+    --text_positive: var(--green_300);
+    --text_warning: var(--yellow_300);
+    --text_accent_purple: var(--purple_300);
+    --text_accent_pink: var(--pink_300);
+    --text_accent_blue: var(--blue_300);
+    --text_accent_fog: var(--fog_300);
+    --text_accent_orange: var(--orange_300);
+    --icon_default: var(--graphite_300);
+    --icon_default_on_grey: var(--graphite_300);
+    --icon_brand: var(--brand_primary_500);
+    --icon_light_on_bright: var(--white);
+    --icon_dark_on_bright: var(--ink_800);
+    --accent_brand_primary_800: var(--brand_primary_800);
+    --accent_brand_primary_500: var(--brand_primary_500);
+    --accent_brand_primary_300: var(--brand_primary_300);
+    --accent_brand_primary_200: var(--brand_primary_200);
+    --accent_brand_primary_50: var(--brand_primary_50);
+    --accent_brand_primary_25: var(--brand_primary_25);
+    --accent_orange_500: var(--orange_500);
+    --accent_orange_300: var(--orange_300);
+    --accent_orange_200: var(--orange_200);
+    --accent_orange_50: var(--orange_50);
+    --accent_green_500: var(--green_500);
+    --accent_green_300: var(--green_300);
+    --accent_green_200: var(--green_200);
+    --accent_green_50: var(--green_50);
+    --accent_yellow_500: var(--yellow_500);
+    --accent_yellow_300: var(--yellow_300);
+    --accent_yellow_200: var(--yellow_200);
+    --accent_yellow_50: var(--yellow_50);
+    --accent_red_500: var(--red_500);
+    --accent_red_300: var(--red_300);
+    --accent_red_200: var(--red_200);
+    --accent_red_50: var(--red_50);
+    --accent_purple_500: var(--purple_500);
+    --accent_purple_300: var(--purple_300);
+    --accent_purple_200: var(--purple_200);
+    --accent_purple_50: var(--purple_50);
+    --accent_pink_500: var(--pink_500);
+    --accent_pink_300: var(--pink_300);
+    --accent_pink_200: var(--pink_200);
+    --accent_pink_50: var(--pink_50);
+    --accent_blue_500: var(--blue_500);
+    --accent_blue_300: var(--blue_300);
+    --accent_blue_200: var(--blue_200);
+    --accent_blue_50: var(--blue_50);
+    --accent_fog_500: var(--fog_500);
+    --accent_fog_300: var(--fog_300);
+    --accent_fog_200: var(--fog_200);
+    --accent_fog_50: var(--fog_50);
+    --accent_more_horizontal: var(--purpleblue_horizontal_gradient);
+    --accent_more_vertical: var(--purpleblue_vertical_gradient);
+    --accent_more_gradient_pinkvioletblue_dim: var(--more_gradient_pinkvioletblue_dim);
+    --alpha_4: var(--white_alpha_4);
+    --alpha_8: var(--white_alpha_8);
+    --alpha_12: var(--white_alpha_12);
+    --alpha_16: var(--white_alpha_16);
+    --alpha_24: var(--white_alpha_24);
+    --alpha_40: var(--white_alpha_40);
+    --alpha_72: var(--white_alpha_72);
+    --social_mailru: var(--social_mailru_500);
+    --social_fb: var(--social_fb_500);
+    --social_vk: var(--social_vk_500);
+    --social_telegram: var(--social_telegram_500);
+    --social_twitter: var(--social_twitter_500);
+    --social_yandex: var(--social_yandex_500);
+    --social_google: var(--social_google_500);
+    --social_ok: var(--social_ok_500);
+    --social_wechat: var(--social_wechat_500);
+    --social_line: var(--social_line_500);
+    --social_whatsapp: var(--social_whatsapp_500);
+    --social_apple: var(--social_apple_500);
+    --social_yahoo: var(--social_yahoo_500);
+    --social_more: var(--more_gradient_pinkvioletblue);
+    --social_x_twitter: var(--social_x_twitter_500);
+    --border_picture: var(--white_alpha_12);
+    --border_text: var(--black);
+    --hover_table_cell: var(--white_alpha_4);
+    --shimmering_text: var(--white_alpha_8);
+    --shimmering_picture: var(--white_alpha_12);
+    --link_standalone: var(--white);
+    --link_default: var(--brand_primary_500);
+    --link_on_bright: var(--white)
+}
+
+html {
+    --shadow_xs: 0 1px 4px rgba(0, 0, 0, 0.06);
+    --shadow_s: 0 4px 8px rgba(0, 0, 0, 0.06);
+    --shadow_m: 0 8px 16px rgba(0, 0, 0, 0.08);
+    --shadow_l: 0 12px 24px rgba(0, 0, 0, 0.1);
+    --shadow_card_hover_border: 0 0 0 2px var(--black_alpha_4-white_alpha_4)
+}
+
+@media(max-width:1023px) {
+    html.body-scroll-lock {
+        overflow: hidden
+    }
+}
+
+:root {
+    --white-none: var(--white);
+    --blue-white: var(--brand_primary_500);
+    --white-dark: var(--white);
+    --general-text-color: var(--ink_800);
+    --general-background-color: var(--ink_50);
+    --general-border: 1px solid var(--ink_300);
+    --general-block-color: var(--white);
+    --general-block-border: none;
+    --general-menu-background: var(--white);
+    --general-control-hover: var(--brand_primary_25);
+    --general-control-hover-color: var(--brand_primary_500);
+    --general-control-border-color: var(--brand_primary_500);
+    --page-header-color: var(--brand_primary_500);
+    --content-page-bg: #f3f5f7
+}
+
+html[data-brand=WA]:not(.--night) {
+    --page-header-color: var(--brand_pale_50);
+    --content-page-bg: var(--brand_pale_50);
+    --general-background-color: var(--brand_pale_50)
+}
+
+.--night {
+    --white-none: none;
+    --blue-white: var(--graphite_50);
+    --white-dark: var(--graphite_900);
+    --general-text-color: var(--graphite_50);
+    --general-background-color: var(--graphite_900);
+    --general-border: 1px solid var(--graphite_900);
+    --general-block-color: var(--graphite_800);
+    --general-block-border: 1px solid var(--graphite_900);
+    --general-menu-background: var(--graphite_800);
+    --general-control-hover: var(--graphite_500);
+    --general-control-hover-color: var(--graphite_50);
+    --general-control-border-color: var(--graphite_900);
+    --page-header-color: var(--graphite_900)
+}

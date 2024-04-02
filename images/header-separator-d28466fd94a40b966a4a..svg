@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="92px" height="22px" viewBox="0 0 92 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.3 (16618) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 117 + Oval 24 + Rectangle 169</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Short-Header" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="1280-copy-3" sketch:type="MSArtboardGroup" transform="translate(-594.000000, -143.000000)" fill="#B1BEC4">
+            <g id="Rectangle-117-+-Oval-24-+-Rectangle-169" sketch:type="MSLayerGroup" transform="translate(594.000000, 143.000000)">
+                <path d="M0,11 L36,11 L36,11.7928571 L0,11.7928571 L0,11 Z" id="Rectangle-117" sketch:type="MSShapeGroup" transform="translate(18.000000, 11.396429) scale(1, -1) translate(-18.000000, -11.396429) "></path>
+                <path d="M46,21.5 C51.7989899,21.5 56.5,16.7989899 56.5,11 C56.5,5.20101013 51.7989899,0.5 46,0.5 C40.2010101,0.5 35.5,5.20101013 35.5,11 C35.5,16.7989899 40.2010101,21.5 46,21.5 L46,21.5 Z M46,20.5 C40.7532949,20.5 36.5,16.2467051 36.5,11 C36.5,5.75329488 40.7532949,1.5 46,1.5 C51.2467051,1.5 55.5,5.75329488 55.5,11 C55.5,16.2467051 51.2467051,20.5 46,20.5 L46,20.5 Z" id="Shape" sketch:type="MSShapeGroup"></path>
+                <path d="M42.4705882,10.2857143 L45.2941176,10.2857143 C44.6615066,8.81265154 43.5294118,6 43.5294118,6 L44.9411765,6 L47.7647059,10.2857143 L51.2935024,10.2857143 C51.6836902,10.2857143 52,10.6027606 52,11 C52,11.3944891 51.6741692,11.7142857 51.2935024,11.7142857 L42.4705882,11.7142857 L40.7058824,13.1428571 L40,12.7857143 L40.7646376,11.2868124 C40.7268462,11.1992174 40.7058824,11.1022661 40.7058824,11 C40.7058824,10.8544621 40.7502304,10.7190903 40.8253188,10.6061925 L40,9.21428571 L40.7058824,8.85714285 L42.4705882,10.2857143 Z M43.5294118,16 L45.2941176,11.7142856 L47.7647059,11.7142856 L44.9411765,16 L43.5294118,16 Z" id="Rectangle-169" sketch:type="MSShapeGroup" transform="translate(46.000000, 11.000000) rotate(-90.000000) translate(-46.000000, -11.000000) "></path>
+                <path d="M56,11 L92,11 L92,11.7928571 L56,11.7928571 L56,11 Z" id="Rectangle-117" sketch:type="MSShapeGroup" transform="translate(74.000000, 11.396429) scale(1, -1) translate(-74.000000, -11.396429) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
